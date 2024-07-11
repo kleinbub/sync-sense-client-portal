@@ -10,7 +10,7 @@ import AutoImport from "unplugin-auto-import/vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-	base: "/sync-sense-client-portal/",
+	base: "https://dotnet555.github.io/sync-sense-client-portal/",
 	plugins: [
 		vue(),
 		// vueDevTools(),

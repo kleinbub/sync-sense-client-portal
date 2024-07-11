@@ -28,17 +28,9 @@ declare module 'vue' {
     DropdownMenuSubContent: typeof import('./components/ui/dropdown-menu/DropdownMenuSubContent.vue')['default']
     DropdownMenuSubTrigger: typeof import('./components/ui/dropdown-menu/DropdownMenuSubTrigger.vue')['default']
     DropdownMenuTrigger: typeof import('./components/ui/dropdown-menu/DropdownMenuTrigger.vue')['default']
-    HelloWorld: typeof import('./components/HelloWorld.vue')['default']
-    IconCommunity: typeof import('./components/icons/IconCommunity.vue')['default']
-    IconDocumentation: typeof import('./components/icons/IconDocumentation.vue')['default']
-    IconEcosystem: typeof import('./components/icons/IconEcosystem.vue')['default']
-    IconSupport: typeof import('./components/icons/IconSupport.vue')['default']
-    IconTooling: typeof import('./components/icons/IconTooling.vue')['default']
     Input: typeof import('./components/ui/input/Input.vue')['default']
     Label: typeof import('./components/ui/label/Label.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    TheWelcome: typeof import('./components/TheWelcome.vue')['default']
-    WelcomeItem: typeof import('./components/WelcomeItem.vue')['default']
   }
 }
